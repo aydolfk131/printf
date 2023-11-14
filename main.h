@@ -1,6 +1,5 @@
 #ifndef MAIN_H
 #define MAIN_H
-<<<<<<< HEAD
 
 #include <stdio.h>
 #include <stdarg.h>
@@ -53,7 +52,6 @@ typedef struct _format
 } format;
 
 #endif /* MAIN_H */
-=======
 #include <stdarg.h>
 int _printf(const char *format, ...);
 int print_char(va_list ap);
@@ -93,5 +91,3 @@ typedef struct flags_printf
 	int (*f)(va_list);
 } flags_p;
 #endif
-
->>>>>>> origin/master
